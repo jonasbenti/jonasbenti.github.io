@@ -32,3 +32,13 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+/**
+ * alerta com a mensagem de erro
+ * @returns Boolean
+ */
+function blockLink() {
+    alert('servidor indisponivel no momento');
+
+    return false;
+}
